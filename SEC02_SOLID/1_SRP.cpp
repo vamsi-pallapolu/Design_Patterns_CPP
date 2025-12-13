@@ -36,7 +36,7 @@ struct Journal
     // }
 };
 
-// Here SaveJournal has a onky single responsibility of saving entries
+// Here SaveJournal has a only single responsibility of saving entries
 struct SaveJournal
 {
     void saveEntry(const Journal &j, const std::string &fileName)
