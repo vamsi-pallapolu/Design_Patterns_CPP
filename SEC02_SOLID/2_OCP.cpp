@@ -38,7 +38,7 @@ struct ProductFilter
         return result;
     }
 
-    // Filter the prducts by size
+    // Filter the products by size
     std::vector<Product *> by_size(const std::vector<Product *> &products, Size size)
     {
         std::vector<Product *> result;
